@@ -1,3 +1,4 @@
+import 'package:ereny_pacy_app/widget/facebook.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
@@ -402,8 +403,8 @@ class _LoginPageState extends State<LoginPage>
             children: <Widget>[
               Padding(
                 padding: EdgeInsets.only(top: 10.0, right: 40.0),
-                child: GestureDetector(
-                  onTap: () => showInSnackBar("Facebook button pressed"),
+                child: LoginFB(
+                  // onTap: () => showInSnackBar("Facebook button pressed"),
                   child: Container(
                     padding: const EdgeInsets.all(15.0),
                     decoration: BoxDecoration(
