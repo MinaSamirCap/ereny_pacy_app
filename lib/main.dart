@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import 'ui/login_page.dart';
+
 const String APP_NAME = 'Ereny Pacy';
 
 void main() => runApp(MyApp());
@@ -12,7 +14,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: DummyScreen(),
+      home: LoginPage(),
     );
   }
 }

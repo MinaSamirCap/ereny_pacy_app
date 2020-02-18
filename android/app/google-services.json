@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "369705483011",
+    "firebase_url": "https://ereny-pacy.firebaseio.com",
+    "project_id": "ereny-pacy",
+    "storage_bucket": "ereny-pacy.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:369705483011:android:772430596b66b976e3c736",
+        "android_client_info": {
+          "package_name": "com.example.ereny_pacy_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "369705483011-v98fk76lp6sfirmbu9596j501niv43bh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ereny_pacy_app",
+            "certificate_hash": "da0346012a8564d56eee52836b47ce7378e20341"
+          }
+        },
+        {
+          "client_id": "369705483011-i4vhr9mlfoe24ljva0mtqpshs4sljpv8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDw_OUS95wQWmB2kOr7vJ1cMOhsz7NHE5A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "369705483011-i4vhr9mlfoe24ljva0mtqpshs4sljpv8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

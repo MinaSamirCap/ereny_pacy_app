@@ -28,7 +28,11 @@
 .pub-cache/
 .pub/
 /build/
+<<<<<<< HEAD
 /key
+=======
+/key/
+>>>>>>> features-auth-screen
 
 # Android related
 **/android/**/gradle-wrapper.jar
