@@ -85,7 +85,7 @@ class _LoginFBState extends State<LoginFB> {
   void onFacebookSignIn(BuildContext context) async {
     await handleSignIn();
     if (isUserSignedIn) {
-      // widget.afterSingin();
+      widget.afterSingin();
     } else {
       print("error");
     }
