@@ -74,7 +74,7 @@ class _HourHomeState extends State<HourHome> {
       reverse: true,
       controller: controller,
       onPageChanged: (num) {
-        print("Change:" + controller.position.toString());
+        // print("Change:" + controller.position.toString());
       },
     );
   }

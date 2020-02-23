@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 import 'baker/text.dart';
-import 'widget/hour_home.dart';
+import 'widget/hour_screen.dart';
 
 class AgbyaHomePage extends StatefulWidget {
   static const ROUTE_NAME = "/agbya-home-screen";
