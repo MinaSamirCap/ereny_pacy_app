@@ -1,3 +1,4 @@
+import 'package:ereny_pacy_app/ui/home_page.dart';
 import 'package:ereny_pacy_app/widget/facebook.dart';
 import 'package:ereny_pacy_app/widget/google_auth.dart';
 import 'package:flutter/material.dart';
@@ -334,7 +335,9 @@ class _LoginPageState extends State<LoginPage>
                             fontFamily: "WorkSansBold"),
                       ),
                     ),
-                    onPressed: () => showInSnackBar("Login button pressed")),
+                    onPressed: () {
+                      Navigator.of(context).pushReplacementNamed(HomeScren.ROUTE_NAME);
+                    }),
               ),
             ],
           ),
