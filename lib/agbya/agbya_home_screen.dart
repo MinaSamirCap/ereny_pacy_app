@@ -16,6 +16,9 @@ class _AgbyaHomePageState extends State<AgbyaHomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(
+                title: Text("Ereny Pacy"),
+      ),
       body: ListView(
         children: <Widget>[
           ListTile(
