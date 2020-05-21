@@ -1,7 +1,7 @@
 import 'package:ereny_pacy_app/style/colors.dart';
 import 'package:flutter/material.dart';
 
-import 'lang/utils/lang/app_localization.dart';
+import 'lang/app_localization.dart';
 
 Future sheetSuccess(
     AppLocalizations appLocal, BuildContext context, Size screenSize,Widget child) async {

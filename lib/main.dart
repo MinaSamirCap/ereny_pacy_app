@@ -2,8 +2,10 @@ import 'package:ereny_pacy_app/khadem/home_screen.dart';
 import 'package:flutter/material.dart';
 
 import 'package:ereny_pacy_app/ui/home_page.dart';
+import 'package:flutter_localizations/flutter_localizations.dart';
 import 'agbya/agbya_home_screen.dart';
 import 'ui/login_page.dart';
+import 'utils/lang/app_localization.dart';
 
 const String APP_NAME = 'Ereny Pacy';
 
